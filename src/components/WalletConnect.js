@@ -14,9 +14,9 @@ const WalletConnect = (props) => {
   const [accountInfo, setAccountInfo] = useState(null);
   const isConnectedToPeraWallet = !!accountAddress;
 
-  // TODO4: Auto reconnect to wallet if wallet is connected
+  // TODO5: Auto reconnect to wallet if wallet is connected
 
-  // TODO3: Get account info when the account address is set
+  // TODO4: Get account info when the account address is set
 
   // TODO2: Handle the connect to PeraWallet button click
   const handleConnectWalletClick = () => {
