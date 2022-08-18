@@ -4,6 +4,10 @@ import LogoProfile from '../assets/logo_profile.png';
 import { PeraWalletConnect } from '@perawallet/connect';
 import algosdk, { } from 'algosdk';
 
+// Create the PeraWallet instance
+
+// Connect to an algorand node
+
 
 const WalletConnect = (props) => {
   const [accountAddress, setAccountAddress] = useState(null);
