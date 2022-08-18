@@ -4,9 +4,9 @@ import LogoProfile from '../assets/logo_profile.png';
 import { PeraWalletConnect } from '@perawallet/connect';
 import algosdk, { } from 'algosdk';
 
-// Create the PeraWallet instance
+// TODO1: Create the PeraWallet instance
 
-// Connect to an algorand node
+// TODO1: Connect to an algorand node
 
 
 const WalletConnect = (props) => {
@@ -14,15 +14,16 @@ const WalletConnect = (props) => {
   const [accountInfo, setAccountInfo] = useState(null);
   const isConnectedToPeraWallet = !!accountAddress;
 
-  // Auto reconnect to wallet if wallet is connected
+  // TODO4: Auto reconnect to wallet if wallet is connected
 
-  // Get account info when the account address is set
+  // TODO3: Get account info when the account address is set
 
-  // Handle the connect to PeraWallet button click
+  // TODO2: Handle the connect to PeraWallet button click
   const handleConnectWalletClick = () => {
 
   }
-  // Handle the disconnect from PeraWallet button click
+
+  // TODO3: Handle the disconnect from PeraWallet button click
   const handleDisconnectWalletClick = () => {
 
   }
